@@ -1,0 +1,12 @@
+#collapsable-nav > ul li > a {
+    text-align: center;
+}
+
+#collapsable-nav > ul {
+    background-color: #79a0b7;
+}
+
+section {
+    background-color: grey;
+    height: 1000px;
+}
