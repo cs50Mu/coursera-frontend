@@ -2,11 +2,24 @@
     text-align: center;
 }
 
+#collapsable-nav >ul li {
+    border: 1px solid green;
+}
+
 #collapsable-nav > ul {
-    background-color: #79a0b7;
+    background-color: white;
 }
 
 section {
     background-color: grey;
     height: 1000px;
+    background-clip: content-box;
+}
+
+section > h3 {
+    text-align: center;
+}
+
+section > p {
+    padding: 10px;
 }
