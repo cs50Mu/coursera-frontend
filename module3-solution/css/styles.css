@@ -1,9 +1,16 @@
 #collapsable-nav >ul li {
-    border: 1px solid green;
+    border: solid green;
+    border-width: 0px 1px 1px 1px;
+}
+
+#collapsable-nav >ul li:first-child {
+    border-width: 1px;
 }
 
 #collapsable-nav > ul {
     background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 section {
